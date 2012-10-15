@@ -6,7 +6,7 @@ To integrate you will need to follow these steps:
   - upload the `smcc_sdk` folder in `wp-content/plugins`
   - go to `Plugins > Add new`. Click on `Upload`, choose the zip archive (see below) and click on `Install Now`.
 2. Activate the plugin.
-3. Configure the plugin and set a secret key.
+3. Configure the plugin (go to `Settings` > `SMCC SDK`) and set a secret key.
 
 To create a valid zip archive of the plugin:
 
