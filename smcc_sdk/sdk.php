@@ -103,8 +103,7 @@ class SmccSdk {
 	 * @return bool
 	 */
     public function is_valid_request() {
-        $signature = $this->signature($this->get_raw_body());
-        return $signature === @$_SERVER['HTTP_X_SMCCSDK_SIGNATURE'] || $signature === @$_REQUEST['signature'];
+        return $this->signature($this->get_raw_body()) === @$_SERVER['HTTP_X_SMCCSDK_SIGNATURE'];
     }
 
 	/**
