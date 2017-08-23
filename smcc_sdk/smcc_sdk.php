@@ -17,7 +17,7 @@ License: Apache License, Version 2.0
  * You may obtain a copy of the License at
  *
  *	 http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -354,7 +354,7 @@ class SmccSdkFormat { // {{{
 			'categories' => array(),
 			'created_at' => SmccSdk::to_sdk_time( $post['post_date'] ),
 			'custom_actions' => array(),
-			'custom_fields' => array(),
+			'context_data' => array(),
 			'display_url' => get_permalink( $post['ID'] ),
 			'published' => $post['post_status'] == 'publish',
 			'title' => $post['post_title'],
@@ -388,7 +388,7 @@ class SmccSdkFormat { // {{{
 			'categories' => array(),
 			'created_at' => SmccSdk::to_sdk_time( $comment['comment_date'] ),
 			'custom_actions' => array(),
-			'custom_fields' => array(),
+			'context_data' => array(),
 			'latitude' => null,
 			'longitude' => null,
 			'id' => $comment['comment_ID'],
