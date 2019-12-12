@@ -1,4 +1,4 @@
-# Wordpress plugin for the SMCC SDK
+# Engage Digital Source SDK Wordpress plugin
 
 To integrate you will need to follow these steps:
 
@@ -17,4 +17,3 @@ To create a valid zip archive of the plugin:
 5. Follow the installation steps as listed above.
 
 Note: *The option `Comment author must fill out name and e-mail` must be enabled for the plugin to work correctly.*
-
