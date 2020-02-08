@@ -2,7 +2,7 @@
 /*
 Plugin Name: Dimelo SMCC SDK
 Plugin URI: https://github.com/dimelo/sdk/tree/master/samples/wordpress
-Description: The simplest way to integrate your Wordpress blog with Dimelo's SMCC.
+Description: The simplest way to integrate your WordPress blog with Dimelo's SMCC.
 Version: 1.0
 Author: Dimelo, SA
 Author URI: http://www.dimelo.com/
@@ -339,7 +339,7 @@ class SmccSdkImplementation { // {{{
 } // }}}
 
 /**
- * Converts from Wordpress data to SMCC SDK data structures.
+ * Converts from WordPress data to SMCC SDK data structures.
  */
 class SmccSdkFormat { // {{{
 

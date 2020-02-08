@@ -1,4 +1,4 @@
-# Engage Digital Source SDK Wordpress plugin
+# Engage Digital Source SDK WordPress plugin
 
 To integrate you will need to follow these steps:
 

@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: Apache License, Version 2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 
-The simplest way to integrate your Wordpress blog with RingCentral Engage Digital.
+The simplest way to integrate your WordPress blog with RingCentral Engage Digital.
 
 == Description ==
 
